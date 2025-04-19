@@ -1,0 +1,14 @@
+/* Styles for Home component */
+
+.page-container {
+  /* padding and text-align handled by SharedLayout main element */
+}
+
+.page-title {
+  color: #333; /* Darker text for title */
+  margin-bottom: 1rem;
+}
+
+.page-content {
+  color: #555; /* Slightly lighter text for content */
+}
