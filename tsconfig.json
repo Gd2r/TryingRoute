@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true, // Often needed for imports
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+    // Removed "noUncheckedSideEffectImports" as it might be stricter than needed for some setups
+    // Removed "moduleDetection": "force" as it's often default or inferred
+  },
+  "include": ["src"] // Include the src directory
+  // Removed references and empty files array
+  // "references": [
+  //  { "path": "./tsconfig.app.json" },
+  //  { "path": "./tsconfig.node.json" }
+  // ]
+}
