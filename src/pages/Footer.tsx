@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Footer.css";
 
 // Even simpler Footer with direct inline styles
