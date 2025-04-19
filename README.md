@@ -1,5 +1,7 @@
 # TryingRoute - React Router Practice
 
+**🚀 Live Deployment:** [https://trying-route-qezl.vercel.app](https://trying-route-qezl.vercel.app)
+
 A simple multi-page React application built to practice using `react-router-dom`.
 
 ## Features
