@@ -1,5 +1,5 @@
-import { Link, Outlet } from "@tanstack/react-router";
-import "../styles/SharedLayout.css"; // We will create this CSS file next
+import { Link } from "@tanstack/react-router";
+import "../styles/SharedLayout.css"; // Path relative to src/components
 
 // Layout component including Navbar structure
 function SharedLayout() {

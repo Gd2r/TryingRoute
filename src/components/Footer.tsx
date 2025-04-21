@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../styles/Footer.css"; // Path relative to src/components
 
 // Even simpler Footer with direct inline styles
 function Footer() {

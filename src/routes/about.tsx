@@ -1,6 +1,11 @@
+import { createFileRoute } from "@tanstack/react-router";
 import "../styles/About.css";
 
-function About() {
+export const Route = createFileRoute("/about")({
+  component: AboutComponent,
+});
+
+function AboutComponent() {
   return (
     <div className="page-container">
       <h1 className="page-title">About</h1>
@@ -8,5 +13,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

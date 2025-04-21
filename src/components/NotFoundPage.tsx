@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import "../styles/NotFoundPage.css";
+import "../styles/NotFoundPage.css"; // Path relative to src/components
 
 function NotFoundPage() {
   return (
