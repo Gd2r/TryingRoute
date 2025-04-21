@@ -27,6 +27,12 @@ function SharedLayout() {
               Contact
             </Link>
           </li>
+          {/* Add link to Posts page */}
+          <li className="navbar-item">
+            <Link to="/posts" className="navbar-link">
+              Posts
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* Outlet is removed from here because it's now in App.tsx */}
