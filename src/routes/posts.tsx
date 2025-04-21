@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 interface Post {
   userId: number;
@@ -15,7 +15,7 @@ export const Route = createFileRoute("/posts")({
       throw new Error("Network response was not ok");
     }
     const posts = await response.json();
-    return posts.slice(0, 10); // Return first 10 posts
+    return posts.slice(0, 10);
   },
   component: PostsComponent,
   pendingComponent: () => <div>Loading posts...</div>,
